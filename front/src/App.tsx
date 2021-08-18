@@ -1,7 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
+import Container from "./components/ui/Container";
+import InGame from "./components/ui/InGame";
 
-function App() {
-  return <div className=" bg-green-400">test</div>;
+export default function App() {
+  return (
+    <Container>
+      <InGame />
+    </Container>
+  );
 }
-
-export default App;
